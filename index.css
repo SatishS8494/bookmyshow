@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: Roboto, sans-serif;
+    overflow-x: hidden;
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.headone{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.logo{
+    margin-left: 150px;
+    
+    width: 150px;
+    height: 50px;
+
+}
+.logo img{
+    width: 120px;
+    height: 35px;
+}
+.search{
+   
+    width: 500px;
+    height: 40px;
+   
+
+}
+.search .bx{
+   margin: 5px;
+    width: 20px;
+    height: 20px;
+    
+}
+.srch{
+    border-radius: 5px;
+    border: 1px solid rgba(95, 93, 93,0.1);
+    
+    width: 500px;
+    height: 35px;
+    display: flex;
+}
+.input{
+    width: 450px;
+    outline: none;
+    border: none;
+    height: 30px;
+    display: inline-block;
+}
+.select{
+    margin-left: 320px;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#select{
+    border: none;
+    font-size: 14px;
+}
+#button{
+    color: white;
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: orangered;
+}
+#button:hover{
+    color: red;
+    background-color: purple;
+}
+
+.headtwo{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    
+}
+.list{
+    margin: 8px;
+    margin-left: 130px;
+    height: 30px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li{
+    font-size: 14px;
+    width: auto;
+    height:30px;
+    margin-left: 20px;
+    list-style-type: none;
+    float: left;
+}
+.offer{
+    margin: 8px;
+    margin-left: 450px;
+    height: 30px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.offer ul li{
+    font-size: 12px;
+    list-style-type: none;
+    float: left;
+}
+.main{
+    width: 100%;
+    height: auto;
+   
+    
+}
+.highlight{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(233, 229, 229);
+    
+}
+.hl{
+    margin-left: 160px;
+    width: 1220px;
+    height: 280px;
+   
+}
+.hl img{
+    border-radius: 10px;
+    width: 1220px;
+    height: 280px;
+}
+
+.full{
+    width: 100%;
+    height: auto;
+    
+    
+   
+   
+}
+.movie_posters{
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: top;
+   
+}
+#head{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    color: rgb(51, 50, 50);
+}
+.poster{
+    margin-left: 35px;
+    width: 220px;
+    height: 430px;
+   
+}
+.poster1 img{
+    
+    width: 220px;
+    height: 350px;
+    
+    border-radius: 7px;
+}
+.poster p{
+    font-size: 18px;
+    padding-top:  10px;
+}
+.poster h3{
+    padding-top: 10px;
+}
+.stream{
+    width: 1230px;
+    height: 120px;
+    margin: 0px;
+    margin-left: 160px;
+    
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.stream img{
+    width: 1230px;
+    height: 120px;
+    border-radius: 10px;
+
+}
+.best{
+    width: 100%;
+    height: 350px;
+    
+}
+
+.best h2{
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    display: block;
+}
+.square{
+    width: 100%;
+    height: 270px;
+    
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+#square{
+    margin-left: 35px;
+    width: 220px;
+    height: 220px;
+    
+    border-radius: 7px;
+}
+#square img{
+    width: 220px;
+    height: 220px;
+    border-radius: 7px;
+}
+.premiere{
+    height: 650px;
+    width: 100%;
+    background-color:#2d2f45;
+    
+}
+.hpl{
+    width: 100%;
+    height: 100px;
+    margin-left: 150px;
+    display: flex;
+    padding: 20px;
+    
+    
+    
+}
+.l img{
+    margin-top: 30px;
+    width: 50px;
+    height: 40px;
+
+}
+.hp{
+
+    margin-top: 30px;
+    color: white;
+    width: 400px;
+    height: 40px;
+    margin-left: 25px;
+    
+}
+#hp{
+    color: white;
+    
+    margin-left:160px ;
+    width: 100%;
+    height: 60px;
+    
+    
+}
+.pre{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+
+}
+.prem{
+    width: 220px;
+    height: 400px;
+   
+    
+    justify-content: center;
+    margin-left: 35px;
+    color: white;
+    
+    
+}
+#prem img{
+    border-radius: 10px;
+    width: 220px;
+    height: 320px;
+}
+.prem h3{
+    padding-top: 10px;
+}
+.prem p{
+    padding-top: 10px;
+}
+.gap{
+    width: 100%;
+    height: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(50, 50, 52);
+    
+
+}
+.f1{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    
+}
+.f1 h4 p{
+    width: auto;
+    
+   
+}
+.f1 button{
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+}
+.f2{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(100, 97, 97);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f2 #f2{
+    text-align: center;
+    font-size: 11px;
+    width: 300px;
+    height: 80px;
+    text-transform: uppercase;
+}
+#f2 img{
+    
+    
+    width: 60px;
+    height: 40px;
+    padding-bottom: 20px;
+    
+}
+.f3{
+    padding: 0px 100px;
+    }
+ .footmain{
+    width: 100%;
+    height: 50px;
+    color: rgb(138, 133, 133);
+    padding: 0px 50px;
+ } 
+ .imp{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    width: 100%;
+    margin-top: 20px;
+    height: 10px;
+ }
+ .para{
+    font-size: 11px;
+    width: 100%;
+    margin-top: 20px;
+    height: 10px;
+ }
+.fat{
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    padding: 0px 30px;
+
+    
+    
+}
+.fat hr{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 620px;
+    display: inline-block;
+}
+.fat img{
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+}
+.social{
+    padding-left: 550px;
+   align-items: center;
+   padding-top: 20px;
+    width: 100%;
+    height: 100px;
+    
+    
+}
+.social img{
+    background-color: rgb(117, 110, 110);
+    border-radius: 50%;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+}
+.social img:hover{
+    background-color: orangered;
+    
+}
+.copy{
+    height: 60px;
+    width: 100%;
+    
+    
+   
+}
+.cpy{
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    
+}
+
